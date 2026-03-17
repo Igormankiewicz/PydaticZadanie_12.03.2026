@@ -1,0 +1,4 @@
+# Virtual enviroment ignoring
+venv/
+# Cache files ignoring (Tests purpose)
+models/__pycache__/
