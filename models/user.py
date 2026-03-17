@@ -57,7 +57,7 @@ class Address(SecureBaseModel):
         return v
 
 class Account(SecureBaseModel):
-    user: User
+    user: "User"
     transactions: List[BankTransaction] = Field(default_factory=list)
     insurance_policy: Optional[InsurancePolicy] = None
 
